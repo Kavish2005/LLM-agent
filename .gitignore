@@ -1,0 +1,13 @@
+# API keys — never commit this
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Output files (large, generated at runtime)
+output/
+
+# OS
+.DS_Store

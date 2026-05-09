@@ -7,6 +7,9 @@ import os
 import re
 import time
 import anthropic
+from dotenv import load_dotenv
+
+load_dotenv()  # loads ANTHROPIC_API_KEY from .env if present
 
 
 def get_client() -> anthropic.Anthropic:
