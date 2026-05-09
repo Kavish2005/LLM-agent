@@ -8,6 +8,8 @@ __pycache__/
 
 # Output files (large, generated at runtime)
 output/
+report.pdf
+convert_to_pdf.py
 
 # OS
 .DS_Store
